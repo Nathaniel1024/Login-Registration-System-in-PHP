@@ -22,7 +22,7 @@ A simple and secure PHP-based login and registration system with features like u
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/nathaniel024/login-registration-system.git
+   git clone https://github.com/Nathaniel1024/Login-Registration-System-in-PHP.git
    ```
 
 2. Navigate to the project directory:
@@ -85,7 +85,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 Feel free to fork the repository, make improvements, and submit a pull request. Contributions are always welcome!
 
 ## Author
-- **GitHub**: [nathaniel1024](https://github.com/nathaniel1024)
+- **GitHub**: [nathaniel1024](https://github.com/Nathaniel1024)
 
 ## Acknowledgments
 
