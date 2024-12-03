@@ -22,7 +22,7 @@ A simple and secure PHP-based login and registration system with features like u
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/login-registration-system.git
+   git clone https://github.com/nathaniel024/login-registration-system.git
    ```
 
 2. Navigate to the project directory:
