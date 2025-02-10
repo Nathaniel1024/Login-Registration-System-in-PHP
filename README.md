@@ -36,14 +36,21 @@ A simple and secure PHP-based login and registration system with features like u
    - Use the following SQL script to create the `users` table:
 
      ```sql
-     CREATE TABLE `project_db`.`users` (
-         `id` INT(255) NOT NULL AUTO_INCREMENT,
-         `username` VARCHAR(255) NOT NULL,
-         `password` VARCHAR(255) NOT NULL,
-         `reg_date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-         PRIMARY KEY (`id`),
-         UNIQUE (`username`)
-     ) ENGINE = InnoDB;
+     CREATE TABLE `feifei`.`users` (
+	      `id` INT NOT NULL AUTO_INCREMENT , 
+	      `name` VARCHAR(255) NOT NULL , 
+	      `email` VARCHAR(255) NOT NULL , 
+	      `password` VARCHAR(255) NOT NULL , 
+	      PRIMARY KEY (`id`), 
+	      UNIQUE (`email`)
+      ) ENGINE = InnoDB;
+
+     CREATE TABLE `feifei`.`password_resets` (
+	     `id` int(11) NOT NULL,
+        `email` varchar(255) NOT NULL,
+        `token` varchar(100) NOT NULL,
+        `expires` datetime(6) NOT NULL
+      ) ENGINE = InnoDB;
      ```
 
 4. Configure the database connection:
